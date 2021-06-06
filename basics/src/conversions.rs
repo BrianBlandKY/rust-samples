@@ -1,5 +1,3 @@
-
-
 use std::fmt;
 use std::convert::From;
 
@@ -25,12 +23,9 @@ impl From<i32> for Number {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
-    
     use crate::conversions::Number;
-
     #[test]
     fn test_from_to() {
 
